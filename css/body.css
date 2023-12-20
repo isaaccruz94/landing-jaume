@@ -1,0 +1,7 @@
+.body {
+    color: var(--primary);
+    font: var(--body1);
+    background: var(--gradient, radial-gradient(41.85% 33.13% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0.00) 100%), linear-gradient(135deg, #72EDF2 0%, #5151E5 100%));
+    min-height: 100vh;
+    margin: 0;
+}

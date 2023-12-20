@@ -1,0 +1,38 @@
+.footer{
+  
+}
+.footer-logo{
+  display: none;
+}
+.footer-icon{
+  display: flex;
+  justify-content: space-around;
+}
+.footer-copy{
+  margin-block: 1.5rem;
+}
+.footer-copy p{
+  font: var(--body1);
+  text-align: center;
+  margin: 0;
+  color: var(--white);
+}
+@media screen and (min-width:768px){
+  .footer{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: space-between;
+  }
+  .footer-logo{
+    display: block;
+  }
+  .footer-icon{
+    flex-direction: row;
+    order: 3;
+    gap: 1rem;
+  }
+  .footer-copy{
+    flex-grow: 1;
+  }
+}
